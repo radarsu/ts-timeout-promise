@@ -1,0 +1,27 @@
+{
+    "rulesDirectory": ["src", "test"],
+    "extends": [
+        "tslint:latest"
+    ],
+    "rules": {
+        "no-angle-bracket-type-assertion": false,
+        "await-promise": [true, "Thenable"],
+        "semicolon": [true, "always"],
+        "object-literal-sort-keys": false,
+        "quotemark": [true, "single"],
+        "interface-name": [true, "never-prefix"],
+        "max-line-length": [true, 140],
+        "object-literal-key-quotes": [true, "as-needed"],
+        "no-object-literal-type-assertion": false,
+        "await-promise": [false, "Thenable"],
+        "whitespace": [true,
+            "check-branch",
+            "check-decl",
+            "check-operator",
+            "check-module",
+            "check-separator",
+            "check-type",
+            "check-preblock"
+        ]
+    }
+}
