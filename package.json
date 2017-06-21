@@ -1,6 +1,6 @@
 {
     "name": "ts-timeout-promise",
-    "version": "1.2.4",
+    "version": "1.2.5",
     "description": "",
     "keywords": [],
     "main": "dist/ts-timeout-promise.js",
