@@ -1,0 +1,26 @@
+{
+    "name": "ts-timeout-promise",
+    "version": "2.0.0",
+    "description": "Await timeout promise wrapper.",
+    "keywords": [
+        "await",
+        "timeout",
+        "promise",
+        "async"
+    ],
+    "license": "GPL-3.0",
+    "files": [
+        "dist"
+    ],
+    "author": "Artur Kurowski <radarsu@gmail.com>",
+    "homepage": "https://github.com/radarsu/ts-timeout-promise#readme",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "devDependencies": {
+        "@radrat-scripts/package": "workspace:^0.0.72",
+        "@types/node": "^14.6.0"
+    },
+    "dependencies": {
+        "typescript": "^4.0.2"
+    }
+}
